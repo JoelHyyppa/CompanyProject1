@@ -1,0 +1,62 @@
+﻿#wrapper .header {
+    background-color: deepskyblue;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btnstyle1 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/2048px-Blue_question_mark_icon.svg.png);
+}
+
+.addMore {
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: #eee;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.addMore:hover {
+        border: 1px solid #888;
+        background-color: #ddd;
+}
